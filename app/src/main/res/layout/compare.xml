@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/compare_fragment"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please select two or more options from below to Compare"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+
+    <CheckBox
+        android:id="@+id/january"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="January"
+        android:textSize="25dp"
+        android:padding="10dp"/>
+
+    <CheckBox
+        android:id="@+id/february"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="February"
+        android:textSize="25dp"
+        android:padding="10dp"/>
+    <CheckBox
+        android:id="@+id/march"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="March"
+        android:textSize="25dp"
+        android:padding="10dp"/>
+    <CheckBox
+        android:id="@+id/april"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="April"
+        android:textSize="25dp"
+        android:padding="10dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/compareButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:text="Compare" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+</FrameLayout>
